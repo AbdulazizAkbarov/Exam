@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let rasmmmm = document.querySelector(".about_rasm");
     let edit7 = document.querySelector(".eddit");
   
-    // Ma'lumotlarni yangilash funktsiyasi
     async function update() {
       try {
         let response = await fetch("http://localhost:3000/aboutme");
@@ -21,13 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   
-    // Tahrirlash tugmasiga ishlov beruvchi
     edit7.addEventListener("click", async () => {
       let newName = prompt("Yangi ism kiriting");
       let newBio = prompt("Yangi bio kiriting");
       let newImage = prompt("Yangi rasm URL manzilini kiriting");
   
-      // Foydalanuvchi to'liq ma'lumot kiritmagan bo'lsa
       if (!newName || !newBio || !newImage) {
         alert("Iltimos, barcha maydonlarni to'ldiring.");
         return;
@@ -50,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         if (response.ok) {
           alert("Ma'lumotlar muvaffaqiyatli yangilandi.");
-          update(); // Yangi ma'lumotlarni yuklash
+          update(); 
         } else {
           throw new Error("Ma'lumotlarni saqlashda xatolik yuz berdi.");
         }
@@ -60,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   
-    // Dastlabki ma'lumotlarni yuklash
+   
     update();
   });
   

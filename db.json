@@ -1,0 +1,75 @@
+{
+  "home": [
+    {
+      "title": "Welcome to my site",
+      "subtitle": "Abdulaziz Akbarov",
+      "heroImage": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg",
+      "id": "f68b"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "title1": "E-Commerce Website",
+      "description": "A responsive e-commerce platform with user-friendly design and payment integration.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Stripe API"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3IL1S7b3fevIWEDwR9XSPB_WBnytPVwH8sfecvlrldQmyAtQqOc1g0AG0H7ybtk-xSKI&usqp=CAU",
+      "link": "https://example.com/ecommerce"
+    },
+    {
+      "id": "2",
+      "title1": "Portfolio Website",
+      "description": "A personal portfolio website built to showcase projects and skills.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf02OFGECKn0TL-anUFKmWbXu3b4xaLRudE2J5_eX60CtEW4z5YqwvI-3QuEedqgJNFMk&usqp=CAU",
+      "link": "https://example.com/portfolio"
+    }
+  ],
+  "setup": [
+    {
+      "brand": "ASUS X509F",
+      "processor": "Intel Core1 i7 8th Gen",
+      "memory": "8GB HDD 1TB",
+      "display": "FHD 15.6",
+      "model": "NVIDIA MX250 2GB",
+      "id": "355e"
+    }
+  ],
+  "aboutme": {
+    "name": "Abdulaziz",
+    "bio": "Akbarov",
+    "imagess": "https://exploringjs.com/js/img/cover-homepage.jpg"
+  },
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "role": "Project Manager, TechCorp",
+      "message": "Jane's dedication and attention to detail are exceptional. She always delivers beyond expectations!",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Emily Davis",
+      "role": "CEO, Startup Co.",
+      "message": "Working with Jane was a pleasure. Her ability to solve complex problems is unmatched.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "contact": {
+    "email": "your-email@example.com",
+    "phone": "+123-456-7890",
+    "address": "123 Developer Lane, Tech City, TX, 12345",
+    "mapLink": "https://maps.google.com"
+  }
+}

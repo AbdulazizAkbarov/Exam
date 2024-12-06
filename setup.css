@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat ;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1990px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 108px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+
+    li{
+        margin-left: 20px;
+    }
+    li a{
+        text-decoration: none;
+        color: grey;
+        font-size: 25px;
+        transition: 0.8s;
+
+        &:hover{
+            color: white;
+            cursor: pointer;
+        }
+    }   
+}
+
+
+nav p{
+    font-size: 40px;
+}
+
+.maintext{
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+.maintext h2{
+    font-size: 40px;
+    color: white;
+}
+
+
+.maintext p{
+    font-size: 30px;
+    color: #FAFF00;
+    margin-top: 10px;
+}
+.mainimg{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.mainwrap{
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    
+    margin-top: 50px;
+    gap: 250px;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.textwrap h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.textwrap li{
+    color: #FAFF00;
+    font-family: Montserrat ;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.textwrap2 h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.textwrap2 li{
+    color: #FAFF00;
+    font-family: Montserrat ;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.textwrap2{
+    width: 320px;
+    margin-top: -80px;
+}
+
+footer{
+    border-top: 3px solid grey;
+    color: white;
+    margin-top: 80px;
+    
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+.edite{
+    margin-top: 20px;
+    color: black;
+    background-color: #FAFF00;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 0.8s;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    &:hover{
+    
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+}

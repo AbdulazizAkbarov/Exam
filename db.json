@@ -52,13 +52,6 @@
   },
   "testimonials": [
     {
-      "id": "1",
-      "name": "John Smith",
-      "role": "Project Manager, TechCorp",
-      "message": "Jane's dedication and attention to detail are exceptional. She always delivers beyond expectations!",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
       "id": "2",
       "name": "Emily Davis",
       "role": "CEO, Startup Co.",
@@ -67,9 +60,9 @@
     }
   ],
   "contact": {
-    "email": "your-email@example.com",
-    "phone": "+123-456-7890",
-    "address": "123 Developer Lane, Tech City, TX, 12345",
+    "email": "Abdulaziz@bidkjsd",
+    "phone": "938231177",
+    "address": "asdfghjkewa",
     "mapLink": "https://maps.google.com"
   }
 }
